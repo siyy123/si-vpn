@@ -26,5 +26,6 @@ and connect!
 
 You would also need to enable IPv4 Gateway at Control Panel--Network--your vpn profile--Network--IPv4--Advanced
 
+sometimes the server may report wrong username or password, just choose another username
 
 si-vpn now supports windows, support of macOS, android and ios is developing.
