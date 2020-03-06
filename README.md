@@ -23,6 +23,8 @@ i need money to keep the server running.
   protocol: IKEv2
   
   IKE proposal: aes256-sha1-modp1024 (some OS need this to connect)
+  
+  Auth protocol: EAP-MSCHAPv2
 
 and connect!
 
