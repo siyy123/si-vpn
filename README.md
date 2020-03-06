@@ -14,13 +14,15 @@ i need money to keep the server running.
 1. import the CA certificate. You should choose Local computer and Trusted Root CA
 2. add a vpn profile:
 
-  server : 149.28.227.232
+  server : 45.77.158.226
 
   username choose anything you want
   
-  password: si-vpn
+  password: Siyy123
   
   protocol: IKEv2
+  
+  IKE proposal: aes256-sha1-modp1024 (some OS need this to connect)
 
 and connect!
 
@@ -28,4 +30,12 @@ You would also need to enable IPv4 Gateway at Control Panel--Network--your vpn p
 
 sometimes the server may report wrong username or password, just choose another username
 
-si-vpn now supports windows, support of macOS, android and ios is developing.
+si-vpn now supports windows, macOS, android. ios is developing.
+
+#Todos
+
+add support for IKEv1 XAUTH/PSK for native Android to connect.
+
+add support for iOS IKEv2
+
+add multi-node for improved bandwidth and latency.
